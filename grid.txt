@@ -1,0 +1,4 @@
+go to x:0 y:0
+point in direction 0
+clear
+pen down
