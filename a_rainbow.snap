@@ -1,0 +1,23 @@
+when (banner 'green') clicked
+stop all but this script
+script varibles count
+set count to 0
+hide
+clear
+pen up
+go to x:0 y:0
+pen down
+launch
+forever
+change pen hue by 1
+launch
+forever
+change count by 1
+if cont > 360
+set count to 1
+forever
+impossible whirl
+code list 70 true 140 true 210 true
+direction count
+turn 140 
+warp? ✓
