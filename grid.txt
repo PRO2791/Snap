@@ -2,3 +2,23 @@ go to x:0 y:0
 point in direction 0
 clear
 pen down
+move 120 steps
+move -120 steps
+change x by -25
+move 120 steps
+move -120 steps
+change x by -25
+move 120 steps
+move -120 steps
+change x by -25
+move 120 steps
+move -120 steps
+change x by -25
+move 120 steps
+move -120 steps
+change x by -25
+move 120 steps
+move -120 steps
+change x by -25
+go to x:0 y:0
+move 120 steps
