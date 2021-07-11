@@ -1,0 +1,5 @@
+when (green banner) clicked
+show
+go to x:0 y:0
+forever
+point towards Oink
