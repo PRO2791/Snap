@@ -1,0 +1,37 @@
+when I receive setup
+set ============number============= to 0
+set pen color to (red)
+pen up
+
+
+when (green banner) clicked
+broadcast setup and wait
+forever
+clear
+broadcast tick and wait
+
+
+when I receive tick
+change ============number=============
+warp
+script variables number size
+set number to ============number============= / 1000
+set size to ============size============== / 1000
+go to x:0 y:0
+point in direction 0
+repeat steps
+go to x:0 y:0
+turn number degrees
+move size steps
+change size by ============size============== / 1000
+set pen size to distance to center / 5
+set pen hue to
+distance to center / 1 ✖️
+abs of x position / 100 ✖️ abs of y position / 100
+set pen brightness to
+100 -
+distance to center / 1 ✖️
+abs of x position / 100 ✖️ abs of y position / 100
+pen down
+move 0 steps
+pen up
