@@ -1,0 +1,7 @@
+when (green bunner) clicked
+hide
+forever
+set level to pick random 2 to 3
+point in direction pick random -50 to 50
+create a clone of myself
+wait 5 secs
