@@ -5,3 +5,21 @@ set level to pick random 2 to 3
 point in direction pick random -50 to 50
 create a clone of myself
 wait 5 secs
+
+
+when I start as a clone
+change level by -1
+show
+glide 100 in pick random .8 to 1.91 secs easing quadratic-in
+if level > 0
+play sound Boom
+warp
+script variables shards
+set shards to pick random 10 to 15
+repead shards
+turn (front spin) 360 / shards degrees
+create a clone of myself
+else
+launch animate y position by -50 in 1 secs easing quadratic-out
+animate size by -20 in 1 secs easing linear
+delete this clone
