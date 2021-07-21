@@ -28,3 +28,39 @@ set pen color to (dark blue)
 Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) 91 -180 Angle
 of box: 45
 set pen color to (red)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) -178 89
+Angle: 45
+set pen color to (orange)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) -91 180
+Angle: 45
+set pen color to (pink)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) -178 89
+Angle: 45
+set pen color to (purple)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) -90 -179
+Angle: 45
+set pen color to (green)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) 182 89
+Angle: 45
+set pen color to (yellow)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) 91 180
+Angle: 45
+set pen color to (light blue)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) 182 -89
+Angle: 45
+set pen color to (dark blue)
+Stitch "plus"; Axis lenght: Axis lenght / 2 Orgin (X,Y) 91 -179
+Angle: 45
+set pen color to (black)
+Stitch curve; Axis lengh: 180 Orgin (X,Y): -178 0 Angle: 135
+Stitch curve; Axis lengh: 180 Orgin (X,Y): 181 0 Angle: 315
+Stitch curve; Axis lengh: 180 Orgin (X,Y): -178 178 Angle: 135
+Stitch curve; Axis lengh: 180 Orgin (X,Y): -178 -178 Angle: 135
+Stitch curve; Axis lengh: 180 Orgin (X,Y): 181 178 Angle: 315
+Stitch curve; Axis lengh: 180 Orgin (X,Y): 181 -178 Angle: 315
+set pen color to (red)
+repeat 90
+Stitch "plus"; Axis lenght: Axis lenght Orgin (X,Y): 3 0 Angle:
+int 3
+set int 3 to int 3 + 1
+change pen hue by 1.1
