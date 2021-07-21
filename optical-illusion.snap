@@ -1,0 +1,30 @@
+clear
+set int 3 to 0
+set Axis lenght to 129
+set pen color to (black)
+Stitch circle; Radius: Axis lenght Orgin (X,Y) 0 0 Angle of box: 45
+set pen color to (red)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) 189 89 Angle
+of box: 45
+set pen color to (orange)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) -91 179 Angle
+of box: 45
+set pen color to (pink)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) -180 -89 Angle
+of box: 45
+set pen color to (purple)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) -92 -179 Angle
+of box: 45
+set pen color to (green)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) 180 89 Angle
+of box: 45
+set pen color to (yellow)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) 91 180 Angle
+of box: 45
+set pen color to (light blue)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) 180 -89 Angle
+of box: 45
+set pen color to (dark blue)
+Stitch circle; Radius: Axis lenght / 2 Orgin (X,Y) 91 -180 Angle
+of box: 45
+set pen color to (red)
