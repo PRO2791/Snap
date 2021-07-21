@@ -64,3 +64,6 @@ Stitch "plus"; Axis lenght: Axis lenght Orgin (X,Y): 3 0 Angle:
 int 3
 set int 3 to int 3 + 1
 change pen hue by 1.1
+
+
+set turbo mode to true
