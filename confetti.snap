@@ -1,0 +1,27 @@
+when I am clicked
+pop
+
+
+when (green bunner) clicked
+pop
+
+
+when I start as a clone
+script variables speed
+go to back layer
+switch to costume
+item random of all but first of all but first of my costumes
+switch to costume
+pixels of costume current ✖️
+list
+pick random 0 to .99
+pick random 0 to .99
+pick random 0 to .99 1
+set size to pick random 20 to 80 %
+point in direction pick random 30 to 150
+set speed to pick random .1 to 6
+show
+repeat until toutching edge? or toutching Castell?
+move speed ✖️ 4 steps
+change y by -9.8 ✖️ timer
+delete this clone
